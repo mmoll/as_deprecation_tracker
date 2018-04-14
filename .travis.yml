@@ -8,12 +8,17 @@ rvm:
 - '2.2.5'
 - '2.3.1'
 - '2.4.0'
+- '2.5.1'
 
 env:
 - RAILS_VERSION=4.2.0
 - RAILS_VERSION=git:4-2-stable
 - RAILS_VERSION=5.0.0
 - RAILS_VERSION=git:5-0-stable
+- RAILS_VERSION=5.1.0
+- RAILS_VERSION=git:5-1-stable
+- RAILS_VERSION=5.2.0
+- RAILS_VERSION=git:5-2-stable
 - RAILS_VERSION=git:master
 
 matrix:
@@ -22,11 +27,27 @@ matrix:
       rvm: '2.0.0'
     - env: RAILS_VERSION=git:5-0-stable
       rvm: '2.0.0'
+    - env: RAILS_VERSION=5.1.0
+      rvm: '2.0.0'
+    - env: RAILS_VERSION=git:5-1-stable
+      rvm: '2.0.0'
+    - env: RAILS_VERSION=5.2.0
+      rvm: '2.0.0'
+    - env: RAILS_VERSION=git:5-2-stable
+      rvm: '2.0.0'
     - env: RAILS_VERSION=git:master
       rvm: '2.0.0'
     - env: RAILS_VERSION=5.0.0
       rvm: '2.1.10'
     - env: RAILS_VERSION=git:5-0-stable
+      rvm: '2.1.10'
+    - env: RAILS_VERSION=5.1.0
+      rvm: '2.1.10'
+    - env: RAILS_VERSION=git:5-1-stable
+      rvm: '2.1.10'
+    - env: RAILS_VERSION=5.2.0
+      rvm: '2.1.10'
+    - env: RAILS_VERSION=git:5-2-stable
       rvm: '2.1.10'
     - env: RAILS_VERSION=git:master
       rvm: '2.1.10'
