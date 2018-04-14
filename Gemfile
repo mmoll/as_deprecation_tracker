@@ -21,4 +21,5 @@ group :test do
   gem 'mocha', '~> 1.1', require: false
   gem 'rake'
   gem 'rubocop', '~> 0.47.1', require: false
+  gem 'bundler'
 end
